@@ -1,10 +1,10 @@
 module.exports = {
-  Admins: ["852737378967486464", "663970982209388544"], //Admins of the bot
+  Admins: ["852737378967486464", "838103098891173918", "827210886421807145"], //Admins of the bot
   ExpressServer: true,//If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ".", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/soowhat", //Support Server Link
-  Token: process.env.Token || "ODg2NjI0MDk0MTE0NzA5NTQ0.YT4TCA.hnqe4hteT2nOmuB-VoN39xS4LjM", //Discord Bot Token
+  SupportServer: "https://discord.gg/8brzF9dN7M", //Support Server Link
+  Token: process.env.Token || "ODg2NjI0MDk0MTE0NzA5NTQ0.YT4TCA.PS-oifVobW74kSicvRgP44h-Igc", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "886624094114709544", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "fHHjlHNGf9lOsYdpmBKrFOXbnk3HUTiz", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
@@ -22,7 +22,6 @@ module.exports = {
     host: "lava.link",
     port: 80,
     pass: "youshallnotpass", 
-    secure: false, // Set this to true if you're self-hosting lavalink on replit.
   },
   
   //Alternate Lavalink
@@ -32,13 +31,12 @@ module.exports = {
     host: "lava.sudhan.tech",
     port: 1234,
     pass: "CodingWithSudhan", 
-    secure: false // Set this to true if you're self-hosting lavalink on replit.
   },
   */
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "5f93f0378ebb4cae8a24bb4fafd4e2bc", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "662492fa51644345b169eeae8d7a6700", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "910ac1d164ba495eb1f2c808d3610090", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "a62ecc35afa24f4488b1b76a10960d3d", //Spotify Client Secret
   },
 };
