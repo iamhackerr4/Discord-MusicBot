@@ -4,9 +4,9 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || ".", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/8brzF9dN7M", //Support Server Link
-  Token: process.env.Token || "ODg2NjI0MDk0MTE0NzA5NTQ0.YT4TCA.PS-oifVobW74kSicvRgP44h-Igc", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "886624094114709544", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "fHHjlHNGf9lOsYdpmBKrFOXbnk3HUTiz", //Discord Client Secret
+  Token: process.env.Token || "ODU2MDUwMzc5NjM2NDczOTA2.YM7ZCw.w3MYj6KYOZXbzxvQANFo25Lx1i8", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "856050379636473906", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "qvFUT9UlBwg8n3fIUbeuRgDf7ZeTiTey", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
   "24/7": true, //If you want the bot to be stay in the vc 24/7
